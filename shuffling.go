@@ -24,9 +24,9 @@ func main() {
 
 	rand.Seed(seed)
 
-	nftIDs := make([]int, 10000)
+	var nftIDs []int
 	for i := 1; i <= 9999; i++ {
-		nftIDs[i] = i
+		nftIDs = append(nftIDs, i)
 	}
 
 	rand.Shuffle(len(nftIDs), func(i, j int) {
