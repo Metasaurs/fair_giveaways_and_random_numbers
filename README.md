@@ -1,2 +1,5 @@
 # fair_giveaways_and_random_numbers
-like the name says....
+
+Smart Contract + Hashes + Randomisation Script
+
+good luck with your NFT project ;)
