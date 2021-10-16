@@ -8,7 +8,7 @@ import (
 	"time"
 )
 
-const chainlinkRandomNumber = "RandomNumberGoesHere"
+const chainlinkRandomNumber = "RANDOM_NUMBER_FROM_CHAINLINK_GOES_HERE"
 
 //max int64  -> random number from chainlink will be cut to 18 digits
 //9223372036854775807 -> this is max int64 in go, as max value for 'seed'
